@@ -1,2 +1,3 @@
 # helloci
-GitHub Actions Getting Start
+
+CI/CD Sample & Test Repository
