@@ -41,7 +41,7 @@ jobs:
           path: main.go
 
       - name: Publish to Registry    # 构建镜像，并将镜像push到 ccr.ccs.tencentyun.com/marmotedu/helloci:beta
-        uses: elgohr/Publish-Docker-Github-Action@master
+        uses: elgohr/Publish-Docker-Github-Action@v5
         with:
           name: ccr.ccs.tencentyun.com/marmotedu/helloci:beta  # docker image 的名字
           username: ${{ secrets.DOCKER_USERNAME}} # 用户名
